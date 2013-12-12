@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA877C11859B3AF009AFDC6 /* mgaction.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8777F1859B2C4009AFDC6 /* mgaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877C21859B3AF009AFDC6 /* mgcmd.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877801859B2C4009AFDC6 /* mgcmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877C31859B3AF009AFDC6 /* mgcoreview.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877811859B2C4009AFDC6 /* mgcoreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877C41859B3AF009AFDC6 /* mglockdata.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877821859B2C4009AFDC6 /* mglockdata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877C51859B3AF009AFDC6 /* mgselect.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877831859B2C4009AFDC6 /* mgselect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877C61859B3AF009AFDC6 /* mgshapeslock.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877841859B2C4009AFDC6 /* mgshapeslock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877C71859B3AF009AFDC6 /* mgsnap.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877851859B2C4009AFDC6 /* mgsnap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877C81859B3AF009AFDC6 /* mgview.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877861859B2C4009AFDC6 /* mgview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877C91859B3B7009AFDC6 /* mgcmddraw.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877881859B2C4009AFDC6 /* mgcmddraw.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877CA1859B3B7009AFDC6 /* mgdrawarc.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877891859B2C4009AFDC6 /* mgdrawarc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877CB1859B3B7009AFDC6 /* mgdrawrect.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8778A1859B2C4009AFDC6 /* mgdrawrect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877CC1859B3BE009AFDC6 /* cmdbasic.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8778C1859B2C4009AFDC6 /* cmdbasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877CD1859B3BE009AFDC6 /* mgbasicspreg.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8778D1859B2C4009AFDC6 /* mgbasicspreg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877CE1859B3BE009AFDC6 /* mgdrawcircle.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8778E1859B2C4009AFDC6 /* mgdrawcircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877CF1859B3BE009AFDC6 /* mgdrawdiamond.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8778F1859B2C4009AFDC6 /* mgdrawdiamond.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877D01859B3BE009AFDC6 /* mgdrawellipse.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877901859B2C4009AFDC6 /* mgdrawellipse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877D11859B3BE009AFDC6 /* mgdrawfreelines.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877911859B2C4009AFDC6 /* mgdrawfreelines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877D21859B3BE009AFDC6 /* mgdrawgrid.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877921859B2C4009AFDC6 /* mgdrawgrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877D31859B3BE009AFDC6 /* mgdrawline.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877931859B2C4009AFDC6 /* mgdrawline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877D41859B3BE009AFDC6 /* mgdrawlines.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877941859B2C4009AFDC6 /* mgdrawlines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877D51859B3BE009AFDC6 /* mgdrawparallel.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877951859B2C4009AFDC6 /* mgdrawparallel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877D61859B3BE009AFDC6 /* mgdrawpolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877961859B2C4009AFDC6 /* mgdrawpolygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877D71859B3BE009AFDC6 /* mgdrawquadrangle.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877971859B2C4009AFDC6 /* mgdrawquadrangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877D81859B3BE009AFDC6 /* mgdrawsplines.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877981859B2C4009AFDC6 /* mgdrawsplines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877D91859B3BE009AFDC6 /* mgdrawsquare.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877991859B2C4009AFDC6 /* mgdrawsquare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877DA1859B3BE009AFDC6 /* mgdrawtriang.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8779A1859B2C4009AFDC6 /* mgdrawtriang.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877DB1859B3C8009AFDC6 /* mgcmdmgr.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8779C1859B2C4009AFDC6 /* mgcmdmgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877DC1859B3C8009AFDC6 /* mgcmdmgrfactory.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8779D1859B2C4009AFDC6 /* mgcmdmgrfactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877DD1859B3CF009AFDC6 /* cmdobserver.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8779F1859B2C4009AFDC6 /* cmdobserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877DE1859B3CF009AFDC6 /* cmdsubject.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877A01859B2C4009AFDC6 /* cmdsubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA877E01859B3DB009AFDC6 /* mgdrawarc.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877A41859B2C4009AFDC6 /* mgdrawarc.cpp */; };
+		AEA877E11859B3DB009AFDC6 /* mgdrawrect.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877A51859B2C4009AFDC6 /* mgdrawrect.cpp */; };
+		AEA877E21859B3DB009AFDC6 /* mgsplock.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877A61859B2C4009AFDC6 /* mgsplock.cpp */; };
+		AEA877E31859B3E3009AFDC6 /* cmdbasic.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877A81859B2C4009AFDC6 /* cmdbasic.cpp */; };
+		AEA877E41859B3E3009AFDC6 /* mgbasicspreg.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877A91859B2C4009AFDC6 /* mgbasicspreg.cpp */; };
+		AEA877E51859B3E3009AFDC6 /* mgcmderase.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877AA1859B2C4009AFDC6 /* mgcmderase.cpp */; };
+		AEA877E61859B3E3009AFDC6 /* mgcmderase.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877AB1859B2C4009AFDC6 /* mgcmderase.h */; };
+		AEA877E71859B3E3009AFDC6 /* mgdrawcircle.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877AC1859B2C4009AFDC6 /* mgdrawcircle.cpp */; };
+		AEA877E81859B3E3009AFDC6 /* mgdrawdiamond.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877AD1859B2C4009AFDC6 /* mgdrawdiamond.cpp */; };
+		AEA877E91859B3E3009AFDC6 /* mgdrawellipse.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877AE1859B2C4009AFDC6 /* mgdrawellipse.cpp */; };
+		AEA877EA1859B3E3009AFDC6 /* mgdrawfreelines.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877AF1859B2C4009AFDC6 /* mgdrawfreelines.cpp */; };
+		AEA877EB1859B3E3009AFDC6 /* mgdrawgrid.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877B01859B2C4009AFDC6 /* mgdrawgrid.cpp */; };
+		AEA877EC1859B3E3009AFDC6 /* mgdrawline.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877B11859B2C4009AFDC6 /* mgdrawline.cpp */; };
+		AEA877ED1859B3E3009AFDC6 /* mgdrawlines.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877B21859B2C4009AFDC6 /* mgdrawlines.cpp */; };
+		AEA877EE1859B3E3009AFDC6 /* mgdrawparallel.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877B31859B2C4009AFDC6 /* mgdrawparallel.cpp */; };
+		AEA877EF1859B3E3009AFDC6 /* mgdrawpolygon.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877B41859B2C4009AFDC6 /* mgdrawpolygon.cpp */; };
+		AEA877F01859B3E3009AFDC6 /* mgdrawsplines.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877B51859B2C4009AFDC6 /* mgdrawsplines.cpp */; };
+		AEA877F11859B3E3009AFDC6 /* mgdrawsquare.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877B61859B2C4009AFDC6 /* mgdrawsquare.cpp */; };
+		AEA877F21859B3E3009AFDC6 /* mgdrawtriang.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877B71859B2C4009AFDC6 /* mgdrawtriang.cpp */; };
+		AEA877F31859B3EE009AFDC6 /* cmdsubject.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877B91859B2C4009AFDC6 /* cmdsubject.cpp */; };
+		AEA877F41859B3EE009AFDC6 /* mgactions.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877BA1859B2C4009AFDC6 /* mgactions.cpp */; };
+		AEA877F51859B3EE009AFDC6 /* mgcmdmgr2.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877BB1859B2C4009AFDC6 /* mgcmdmgr2.cpp */; };
+		AEA877F61859B3EE009AFDC6 /* mgcmdmgr_.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877BC1859B2C4009AFDC6 /* mgcmdmgr_.cpp */; };
+		AEA877F71859B3EE009AFDC6 /* mgcmdmgr_.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877BD1859B2C4009AFDC6 /* mgcmdmgr_.h */; };
+		AEA877F81859B3EE009AFDC6 /* mgcmdselect.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877BE1859B2C4009AFDC6 /* mgcmdselect.cpp */; };
+		AEA877F91859B3EE009AFDC6 /* mgcmdselect.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877BF1859B2C4009AFDC6 /* mgcmdselect.h */; };
+		AEA877FA1859B3EE009AFDC6 /* mgsnapimpl.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877C01859B2C4009AFDC6 /* mgsnapimpl.cpp */; };
+		AEA878221859C1BE009AFDC6 /* mgcmddraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA878211859C1BE009AFDC6 /* mgcmddraw.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEA8777F1859B2C4009AFDC6 /* mgaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgaction.h; sourceTree = "<group>"; };
+		AEA877801859B2C4009AFDC6 /* mgcmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgcmd.h; sourceTree = "<group>"; };
+		AEA877811859B2C4009AFDC6 /* mgcoreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgcoreview.h; sourceTree = "<group>"; };
+		AEA877821859B2C4009AFDC6 /* mglockdata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mglockdata.h; sourceTree = "<group>"; };
+		AEA877831859B2C4009AFDC6 /* mgselect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgselect.h; sourceTree = "<group>"; };
+		AEA877841859B2C4009AFDC6 /* mgshapeslock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgshapeslock.h; sourceTree = "<group>"; };
+		AEA877851859B2C4009AFDC6 /* mgsnap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgsnap.h; sourceTree = "<group>"; };
+		AEA877861859B2C4009AFDC6 /* mgview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgview.h; sourceTree = "<group>"; };
+		AEA877881859B2C4009AFDC6 /* mgcmddraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgcmddraw.h; sourceTree = "<group>"; };
+		AEA877891859B2C4009AFDC6 /* mgdrawarc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawarc.h; sourceTree = "<group>"; };
+		AEA8778A1859B2C4009AFDC6 /* mgdrawrect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawrect.h; sourceTree = "<group>"; };
+		AEA8778C1859B2C4009AFDC6 /* cmdbasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmdbasic.h; sourceTree = "<group>"; };
+		AEA8778D1859B2C4009AFDC6 /* mgbasicspreg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgbasicspreg.h; sourceTree = "<group>"; };
+		AEA8778E1859B2C4009AFDC6 /* mgdrawcircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawcircle.h; sourceTree = "<group>"; };
+		AEA8778F1859B2C4009AFDC6 /* mgdrawdiamond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawdiamond.h; sourceTree = "<group>"; };
+		AEA877901859B2C4009AFDC6 /* mgdrawellipse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawellipse.h; sourceTree = "<group>"; };
+		AEA877911859B2C4009AFDC6 /* mgdrawfreelines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawfreelines.h; sourceTree = "<group>"; };
+		AEA877921859B2C4009AFDC6 /* mgdrawgrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawgrid.h; sourceTree = "<group>"; };
+		AEA877931859B2C4009AFDC6 /* mgdrawline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawline.h; sourceTree = "<group>"; };
+		AEA877941859B2C4009AFDC6 /* mgdrawlines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawlines.h; sourceTree = "<group>"; };
+		AEA877951859B2C4009AFDC6 /* mgdrawparallel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawparallel.h; sourceTree = "<group>"; };
+		AEA877961859B2C4009AFDC6 /* mgdrawpolygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawpolygon.h; sourceTree = "<group>"; };
+		AEA877971859B2C4009AFDC6 /* mgdrawquadrangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawquadrangle.h; sourceTree = "<group>"; };
+		AEA877981859B2C4009AFDC6 /* mgdrawsplines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawsplines.h; sourceTree = "<group>"; };
+		AEA877991859B2C4009AFDC6 /* mgdrawsquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawsquare.h; sourceTree = "<group>"; };
+		AEA8779A1859B2C4009AFDC6 /* mgdrawtriang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawtriang.h; sourceTree = "<group>"; };
+		AEA8779C1859B2C4009AFDC6 /* mgcmdmgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgcmdmgr.h; sourceTree = "<group>"; };
+		AEA8779D1859B2C4009AFDC6 /* mgcmdmgrfactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgcmdmgrfactory.h; sourceTree = "<group>"; };
+		AEA8779F1859B2C4009AFDC6 /* cmdobserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmdobserver.h; sourceTree = "<group>"; };
+		AEA877A01859B2C4009AFDC6 /* cmdsubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmdsubject.h; sourceTree = "<group>"; };
+		AEA877A41859B2C4009AFDC6 /* mgdrawarc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawarc.cpp; sourceTree = "<group>"; };
+		AEA877A51859B2C4009AFDC6 /* mgdrawrect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawrect.cpp; sourceTree = "<group>"; };
+		AEA877A61859B2C4009AFDC6 /* mgsplock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgsplock.cpp; sourceTree = "<group>"; };
+		AEA877A81859B2C4009AFDC6 /* cmdbasic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cmdbasic.cpp; sourceTree = "<group>"; };
+		AEA877A91859B2C4009AFDC6 /* mgbasicspreg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgbasicspreg.cpp; sourceTree = "<group>"; };
+		AEA877AA1859B2C4009AFDC6 /* mgcmderase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgcmderase.cpp; sourceTree = "<group>"; };
+		AEA877AB1859B2C4009AFDC6 /* mgcmderase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgcmderase.h; sourceTree = "<group>"; };
+		AEA877AC1859B2C4009AFDC6 /* mgdrawcircle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawcircle.cpp; sourceTree = "<group>"; };
+		AEA877AD1859B2C4009AFDC6 /* mgdrawdiamond.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawdiamond.cpp; sourceTree = "<group>"; };
+		AEA877AE1859B2C4009AFDC6 /* mgdrawellipse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawellipse.cpp; sourceTree = "<group>"; };
+		AEA877AF1859B2C4009AFDC6 /* mgdrawfreelines.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawfreelines.cpp; sourceTree = "<group>"; };
+		AEA877B01859B2C4009AFDC6 /* mgdrawgrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawgrid.cpp; sourceTree = "<group>"; };
+		AEA877B11859B2C4009AFDC6 /* mgdrawline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawline.cpp; sourceTree = "<group>"; };
+		AEA877B21859B2C4009AFDC6 /* mgdrawlines.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawlines.cpp; sourceTree = "<group>"; };
+		AEA877B31859B2C4009AFDC6 /* mgdrawparallel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawparallel.cpp; sourceTree = "<group>"; };
+		AEA877B41859B2C4009AFDC6 /* mgdrawpolygon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawpolygon.cpp; sourceTree = "<group>"; };
+		AEA877B51859B2C4009AFDC6 /* mgdrawsplines.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawsplines.cpp; sourceTree = "<group>"; };
+		AEA877B61859B2C4009AFDC6 /* mgdrawsquare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawsquare.cpp; sourceTree = "<group>"; };
+		AEA877B71859B2C4009AFDC6 /* mgdrawtriang.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawtriang.cpp; sourceTree = "<group>"; };
+		AEA877B91859B2C4009AFDC6 /* cmdsubject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cmdsubject.cpp; sourceTree = "<group>"; };
+		AEA877BA1859B2C4009AFDC6 /* mgactions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgactions.cpp; sourceTree = "<group>"; };
+		AEA877BB1859B2C4009AFDC6 /* mgcmdmgr2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgcmdmgr2.cpp; sourceTree = "<group>"; };
+		AEA877BC1859B2C4009AFDC6 /* mgcmdmgr_.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgcmdmgr_.cpp; sourceTree = "<group>"; };
+		AEA877BD1859B2C4009AFDC6 /* mgcmdmgr_.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgcmdmgr_.h; sourceTree = "<group>"; };
+		AEA877BE1859B2C4009AFDC6 /* mgcmdselect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgcmdselect.cpp; sourceTree = "<group>"; };
+		AEA877BF1859B2C4009AFDC6 /* mgcmdselect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgcmdselect.h; sourceTree = "<group>"; };
+		AEA877C01859B2C4009AFDC6 /* mgsnapimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgsnapimpl.cpp; sourceTree = "<group>"; };
+		AEA878061859B5AB009AFDC6 /* libTouchVGCmd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchVGCmd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA8780D1859B5AB009AFDC6 /* TouchVGCmd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchVGCmd-Prefix.pch"; sourceTree = "<group>"; };
+		AEA878211859C1BE009AFDC6 /* mgcmddraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mgcmddraw.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA878021859B5AB009AFDC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA8777B1859B2C4009AFDC6 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8777D1859B2C4009AFDC6 /* include */,
+				AEA877A11859B2C4009AFDC6 /* src */,
+			);
+			name = core;
+			path = ../../core;
+			sourceTree = "<group>";
+		};
+		AEA8777D1859B2C4009AFDC6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8777E1859B2C4009AFDC6 /* cmd */,
+				AEA877871859B2C4009AFDC6 /* cmdbase */,
+				AEA8778B1859B2C4009AFDC6 /* cmdbasic */,
+				AEA8779B1859B2C4009AFDC6 /* cmdmgr */,
+				AEA8779E1859B2C4009AFDC6 /* cmdobserver */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AEA8777E1859B2C4009AFDC6 /* cmd */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8777F1859B2C4009AFDC6 /* mgaction.h */,
+				AEA877801859B2C4009AFDC6 /* mgcmd.h */,
+				AEA877811859B2C4009AFDC6 /* mgcoreview.h */,
+				AEA877821859B2C4009AFDC6 /* mglockdata.h */,
+				AEA877831859B2C4009AFDC6 /* mgselect.h */,
+				AEA877841859B2C4009AFDC6 /* mgshapeslock.h */,
+				AEA877851859B2C4009AFDC6 /* mgsnap.h */,
+				AEA877861859B2C4009AFDC6 /* mgview.h */,
+			);
+			path = cmd;
+			sourceTree = "<group>";
+		};
+		AEA877871859B2C4009AFDC6 /* cmdbase */ = {
+			isa = PBXGroup;
+			children = (
+				AEA877881859B2C4009AFDC6 /* mgcmddraw.h */,
+				AEA877891859B2C4009AFDC6 /* mgdrawarc.h */,
+				AEA8778A1859B2C4009AFDC6 /* mgdrawrect.h */,
+			);
+			path = cmdbase;
+			sourceTree = "<group>";
+		};
+		AEA8778B1859B2C4009AFDC6 /* cmdbasic */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8778C1859B2C4009AFDC6 /* cmdbasic.h */,
+				AEA8778D1859B2C4009AFDC6 /* mgbasicspreg.h */,
+				AEA8778E1859B2C4009AFDC6 /* mgdrawcircle.h */,
+				AEA8778F1859B2C4009AFDC6 /* mgdrawdiamond.h */,
+				AEA877901859B2C4009AFDC6 /* mgdrawellipse.h */,
+				AEA877911859B2C4009AFDC6 /* mgdrawfreelines.h */,
+				AEA877921859B2C4009AFDC6 /* mgdrawgrid.h */,
+				AEA877931859B2C4009AFDC6 /* mgdrawline.h */,
+				AEA877941859B2C4009AFDC6 /* mgdrawlines.h */,
+				AEA877951859B2C4009AFDC6 /* mgdrawparallel.h */,
+				AEA877961859B2C4009AFDC6 /* mgdrawpolygon.h */,
+				AEA877971859B2C4009AFDC6 /* mgdrawquadrangle.h */,
+				AEA877981859B2C4009AFDC6 /* mgdrawsplines.h */,
+				AEA877991859B2C4009AFDC6 /* mgdrawsquare.h */,
+				AEA8779A1859B2C4009AFDC6 /* mgdrawtriang.h */,
+			);
+			path = cmdbasic;
+			sourceTree = "<group>";
+		};
+		AEA8779B1859B2C4009AFDC6 /* cmdmgr */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8779C1859B2C4009AFDC6 /* mgcmdmgr.h */,
+				AEA8779D1859B2C4009AFDC6 /* mgcmdmgrfactory.h */,
+			);
+			path = cmdmgr;
+			sourceTree = "<group>";
+		};
+		AEA8779E1859B2C4009AFDC6 /* cmdobserver */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8779F1859B2C4009AFDC6 /* cmdobserver.h */,
+				AEA877A01859B2C4009AFDC6 /* cmdsubject.h */,
+			);
+			path = cmdobserver;
+			sourceTree = "<group>";
+		};
+		AEA877A11859B2C4009AFDC6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AEA877A21859B2C4009AFDC6 /* cmdbase */,
+				AEA877A71859B2C4009AFDC6 /* cmdbasic */,
+				AEA877B81859B2C4009AFDC6 /* cmdmgr */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AEA877A21859B2C4009AFDC6 /* cmdbase */ = {
+			isa = PBXGroup;
+			children = (
+				AEA878211859C1BE009AFDC6 /* mgcmddraw.cpp */,
+				AEA877A41859B2C4009AFDC6 /* mgdrawarc.cpp */,
+				AEA877A51859B2C4009AFDC6 /* mgdrawrect.cpp */,
+				AEA877A61859B2C4009AFDC6 /* mgsplock.cpp */,
+			);
+			path = cmdbase;
+			sourceTree = "<group>";
+		};
+		AEA877A71859B2C4009AFDC6 /* cmdbasic */ = {
+			isa = PBXGroup;
+			children = (
+				AEA877A81859B2C4009AFDC6 /* cmdbasic.cpp */,
+				AEA877A91859B2C4009AFDC6 /* mgbasicspreg.cpp */,
+				AEA877AA1859B2C4009AFDC6 /* mgcmderase.cpp */,
+				AEA877AB1859B2C4009AFDC6 /* mgcmderase.h */,
+				AEA877AC1859B2C4009AFDC6 /* mgdrawcircle.cpp */,
+				AEA877AD1859B2C4009AFDC6 /* mgdrawdiamond.cpp */,
+				AEA877AE1859B2C4009AFDC6 /* mgdrawellipse.cpp */,
+				AEA877AF1859B2C4009AFDC6 /* mgdrawfreelines.cpp */,
+				AEA877B01859B2C4009AFDC6 /* mgdrawgrid.cpp */,
+				AEA877B11859B2C4009AFDC6 /* mgdrawline.cpp */,
+				AEA877B21859B2C4009AFDC6 /* mgdrawlines.cpp */,
+				AEA877B31859B2C4009AFDC6 /* mgdrawparallel.cpp */,
+				AEA877B41859B2C4009AFDC6 /* mgdrawpolygon.cpp */,
+				AEA877B51859B2C4009AFDC6 /* mgdrawsplines.cpp */,
+				AEA877B61859B2C4009AFDC6 /* mgdrawsquare.cpp */,
+				AEA877B71859B2C4009AFDC6 /* mgdrawtriang.cpp */,
+			);
+			path = cmdbasic;
+			sourceTree = "<group>";
+		};
+		AEA877B81859B2C4009AFDC6 /* cmdmgr */ = {
+			isa = PBXGroup;
+			children = (
+				AEA877B91859B2C4009AFDC6 /* cmdsubject.cpp */,
+				AEA877BA1859B2C4009AFDC6 /* mgactions.cpp */,
+				AEA877BB1859B2C4009AFDC6 /* mgcmdmgr2.cpp */,
+				AEA877BC1859B2C4009AFDC6 /* mgcmdmgr_.cpp */,
+				AEA877BD1859B2C4009AFDC6 /* mgcmdmgr_.h */,
+				AEA877BE1859B2C4009AFDC6 /* mgcmdselect.cpp */,
+				AEA877BF1859B2C4009AFDC6 /* mgcmdselect.h */,
+				AEA877C01859B2C4009AFDC6 /* mgsnapimpl.cpp */,
+			);
+			path = cmdmgr;
+			sourceTree = "<group>";
+		};
+		AEA877FB1859B5AB009AFDC6 = {
+			isa = PBXGroup;
+			children = (
+				AEA8780B1859B5AB009AFDC6 /* TouchVGCmd */,
+				AEA878081859B5AB009AFDC6 /* Frameworks */,
+				AEA878071859B5AB009AFDC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA878071859B5AB009AFDC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA878061859B5AB009AFDC6 /* libTouchVGCmd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA878081859B5AB009AFDC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEA8780B1859B5AB009AFDC6 /* TouchVGCmd */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8777B1859B2C4009AFDC6 /* core */,
+				AEA8780C1859B5AB009AFDC6 /* Supporting Files */,
+			);
+			path = TouchVGCmd;
+			sourceTree = "<group>";
+		};
+		AEA8780C1859B5AB009AFDC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8780D1859B5AB009AFDC6 /* TouchVGCmd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AEA878031859B5AB009AFDC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA877C11859B3AF009AFDC6 /* mgaction.h in Headers */,
+				AEA877C21859B3AF009AFDC6 /* mgcmd.h in Headers */,
+				AEA877C31859B3AF009AFDC6 /* mgcoreview.h in Headers */,
+				AEA877C41859B3AF009AFDC6 /* mglockdata.h in Headers */,
+				AEA877C51859B3AF009AFDC6 /* mgselect.h in Headers */,
+				AEA877C61859B3AF009AFDC6 /* mgshapeslock.h in Headers */,
+				AEA877C71859B3AF009AFDC6 /* mgsnap.h in Headers */,
+				AEA877C81859B3AF009AFDC6 /* mgview.h in Headers */,
+				AEA877C91859B3B7009AFDC6 /* mgcmddraw.h in Headers */,
+				AEA877CA1859B3B7009AFDC6 /* mgdrawarc.h in Headers */,
+				AEA877CB1859B3B7009AFDC6 /* mgdrawrect.h in Headers */,
+				AEA877CC1859B3BE009AFDC6 /* cmdbasic.h in Headers */,
+				AEA877CD1859B3BE009AFDC6 /* mgbasicspreg.h in Headers */,
+				AEA877CE1859B3BE009AFDC6 /* mgdrawcircle.h in Headers */,
+				AEA877CF1859B3BE009AFDC6 /* mgdrawdiamond.h in Headers */,
+				AEA877D01859B3BE009AFDC6 /* mgdrawellipse.h in Headers */,
+				AEA877D11859B3BE009AFDC6 /* mgdrawfreelines.h in Headers */,
+				AEA877D21859B3BE009AFDC6 /* mgdrawgrid.h in Headers */,
+				AEA877D31859B3BE009AFDC6 /* mgdrawline.h in Headers */,
+				AEA877D41859B3BE009AFDC6 /* mgdrawlines.h in Headers */,
+				AEA877D51859B3BE009AFDC6 /* mgdrawparallel.h in Headers */,
+				AEA877D61859B3BE009AFDC6 /* mgdrawpolygon.h in Headers */,
+				AEA877D71859B3BE009AFDC6 /* mgdrawquadrangle.h in Headers */,
+				AEA877D81859B3BE009AFDC6 /* mgdrawsplines.h in Headers */,
+				AEA877D91859B3BE009AFDC6 /* mgdrawsquare.h in Headers */,
+				AEA877DA1859B3BE009AFDC6 /* mgdrawtriang.h in Headers */,
+				AEA877DB1859B3C8009AFDC6 /* mgcmdmgr.h in Headers */,
+				AEA877DC1859B3C8009AFDC6 /* mgcmdmgrfactory.h in Headers */,
+				AEA877DD1859B3CF009AFDC6 /* cmdobserver.h in Headers */,
+				AEA877DE1859B3CF009AFDC6 /* cmdsubject.h in Headers */,
+				AEA877E01859B3DB009AFDC6 /* mgdrawarc.cpp in Headers */,
+				AEA877E11859B3DB009AFDC6 /* mgdrawrect.cpp in Headers */,
+				AEA877E21859B3DB009AFDC6 /* mgsplock.cpp in Headers */,
+				AEA877E31859B3E3009AFDC6 /* cmdbasic.cpp in Headers */,
+				AEA877E41859B3E3009AFDC6 /* mgbasicspreg.cpp in Headers */,
+				AEA877E51859B3E3009AFDC6 /* mgcmderase.cpp in Headers */,
+				AEA877E61859B3E3009AFDC6 /* mgcmderase.h in Headers */,
+				AEA877E71859B3E3009AFDC6 /* mgdrawcircle.cpp in Headers */,
+				AEA877E81859B3E3009AFDC6 /* mgdrawdiamond.cpp in Headers */,
+				AEA877E91859B3E3009AFDC6 /* mgdrawellipse.cpp in Headers */,
+				AEA877EA1859B3E3009AFDC6 /* mgdrawfreelines.cpp in Headers */,
+				AEA877EB1859B3E3009AFDC6 /* mgdrawgrid.cpp in Headers */,
+				AEA877EC1859B3E3009AFDC6 /* mgdrawline.cpp in Headers */,
+				AEA877ED1859B3E3009AFDC6 /* mgdrawlines.cpp in Headers */,
+				AEA877EE1859B3E3009AFDC6 /* mgdrawparallel.cpp in Headers */,
+				AEA877EF1859B3E3009AFDC6 /* mgdrawpolygon.cpp in Headers */,
+				AEA877F01859B3E3009AFDC6 /* mgdrawsplines.cpp in Headers */,
+				AEA877F11859B3E3009AFDC6 /* mgdrawsquare.cpp in Headers */,
+				AEA877F21859B3E3009AFDC6 /* mgdrawtriang.cpp in Headers */,
+				AEA877F31859B3EE009AFDC6 /* cmdsubject.cpp in Headers */,
+				AEA877F41859B3EE009AFDC6 /* mgactions.cpp in Headers */,
+				AEA877F51859B3EE009AFDC6 /* mgcmdmgr2.cpp in Headers */,
+				AEA877F61859B3EE009AFDC6 /* mgcmdmgr_.cpp in Headers */,
+				AEA877F71859B3EE009AFDC6 /* mgcmdmgr_.h in Headers */,
+				AEA877F81859B3EE009AFDC6 /* mgcmdselect.cpp in Headers */,
+				AEA877F91859B3EE009AFDC6 /* mgcmdselect.h in Headers */,
+				AEA877FA1859B3EE009AFDC6 /* mgsnapimpl.cpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AEA878051859B5AB009AFDC6 /* TouchVGCmd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA878131859B5AB009AFDC6 /* Build configuration list for PBXNativeTarget "TouchVGCmd" */;
+			buildPhases = (
+				AEA878001859B5AB009AFDC6 /* ShellScript */,
+				AEA878011859B5AB009AFDC6 /* Sources */,
+				AEA878021859B5AB009AFDC6 /* Frameworks */,
+				AEA878031859B5AB009AFDC6 /* Headers */,
+				AEA878041859B5AB009AFDC6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchVGCmd;
+			productName = TouchVGCmd;
+			productReference = AEA878061859B5AB009AFDC6 /* libTouchVGCmd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA877FC1859B5AB009AFDC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = rhcad;
+			};
+			buildConfigurationList = AEA877FF1859B5AB009AFDC6 /* Build configuration list for PBXProject "TouchVGCmd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEA877FB1859B5AB009AFDC6;
+			productRefGroup = AEA878071859B5AB009AFDC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA878051859B5AB009AFDC6 /* TouchVGCmd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEA878001859B5AB009AFDC6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nif [ \"$CALLED_FROM_MASTER\" ]\nthen\n# This is the other build, called from the original instance\nexit 0\nfi\n\n# Clean up prior to build\n\nCURRENTCONFIG_DEVICE_DIR=\"${SYMROOT}/${CONFIGURATION}-iphoneos\"\nCURRENTCONFIG_SIMULATOR_DIR=\"${SYMROOT}/${CONFIGURATION}-iphonesimulator\"\nCURRENTCONFIG_UNIVERSAL_DIR=\"${SYMROOT}/${CONFIGURATION}-universal\"\n\nif [ ! -f \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" ]; then\n  echo \"Device build cleaned; cleaning other builds too\"\n  rm -f \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\" \n  rm -f \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nelif [ ! -f \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\" ]; then\n  echo \"Simulator build cleaned; cleaning other builds too\"\n  rm -f \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\"\n  rm -f \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nfi\n";
+		};
+		AEA878041859B5AB009AFDC6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n#\n# Universal static library script\n# http://github.com/michaeltyson/iOS-Universal-Library-Template\n#\n# Version 2.5\n#\n# Purpose:\n#   Create a static library for iPhone from within XCode\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Tweaked and made into an Xcode template by Michael Tyson - http://atastypixel.com/blog\n# Based on original script from Eonil\n# More info: see this Stack Overflow question: http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n# Additional changes by John Lawson <http://jelawson.com> to copy the CURRENTCONFIG_DEVICE_DIR to the CURRENTCONFIG_UNIVERSAL_DIR instead of creating it\n# to include other files that might have been copied via Copy Files build phases (e.g. readme files, xibs, etc); this removes the need to copy just\n# the header folder.\n#\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"true\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\nif [ \"$CALLED_FROM_MASTER\" ]\nthen\n# This is the other build, called from the original instance\nexit 0\nfi\n\n# Find the BASESDK version number\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n\n# Build the other architecture\necho \"xcodebuild -project \\\"${PROJECT_FILE_PATH}\\\" -configuration \\\"${CONFIGURATION}\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" CALLED_FROM_MASTER=1\"\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -configuration \"${CONFIGURATION}\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" CALLED_FROM_MASTER=1\n\n# Merge built architectures\nCURRENTCONFIG_DEVICE_DIR=\"${SYMROOT}/${CONFIGURATION}-iphoneos\"\nCURRENTCONFIG_SIMULATOR_DIR=\"${SYMROOT}/${CONFIGURATION}-iphonesimulator\"\nCURRENTCONFIG_UNIVERSAL_DIR=\"${SYMROOT}/${CONFIGURATION}-universal\"\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\necho \"...I will output a universal build to: ${CURRENTCONFIG_UNIVERSAL_DIR}\"\n\nif [ ! -e \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" -o \\\n\"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" -nt \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" -o \\\n\"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\" -nt \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" ]\nthen\nrm -rf \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\ncp -R \"${CURRENTCONFIG_DEVICE_DIR}\" \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\nrm -f \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\n\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nlipo -create -output \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\necho \"Copying universal build back over to ${CURRENTCONFIG_DEVICE_DIR} and ${CURRENTCONFIG_SIMULATOR_DIR}\"\ncp \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\"\ncp \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\ntouch \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\n\nelse\necho \"Everything up to date.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA878011859B5AB009AFDC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA878221859C1BE009AFDC6 /* mgcmddraw.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AEA878111859B5AB009AFDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../../TouchVGShape/core/include/**";
+			};
+			name = Debug;
+		};
+		AEA878121859B5AB009AFDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../../TouchVGShape/core/include/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEA878141859B5AB009AFDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TouchVGCmd.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchVGCmd/TouchVGCmd-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AEA878151859B5AB009AFDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TouchVGCmd.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchVGCmd/TouchVGCmd-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA877FF1859B5AB009AFDC6 /* Build configuration list for PBXProject "TouchVGCmd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA878111859B5AB009AFDC6 /* Debug */,
+				AEA878121859B5AB009AFDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA878131859B5AB009AFDC6 /* Build configuration list for PBXNativeTarget "TouchVGCmd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA878141859B5AB009AFDC6 /* Debug */,
+				AEA878151859B5AB009AFDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA877FC1859B5AB009AFDC6 /* Project object */;
+}
