@@ -1,8 +1,8 @@
-# TouchVGCmd - Vector drawing commands
+# TouchVGCmd - Drawing commands
 
 ## Overview
 
-TouchVGCmd contains the following cross-platform modules using C++ for vector drawing frameworks:
+TouchVGCmd contains the following cross-platform modules using C++ and TouchVGShape module for vector drawing frameworks:
 
 - cmdbase: Base classes for deriving more drawing commands.
 - cmdbasic: Commands to draw basic shapes.
@@ -12,7 +12,9 @@ This is an open source LGPL 2.1 licensed project that is in active development. 
 
 ## Build
 
-Need to download or check out TouchVGShape project from [github](https://github.com/rhcad/TouchVGShape) or [oschina](http://git.oschina.net/rhcad/TouchVGShape) to `../TouchVGShape` folder.
+* Need TouchVGShape project
+
+  > Need to download or check out **TouchVGShape** project from [github](https://github.com/rhcad/TouchVGShape) or [oschina](http://git.oschina.net/rhcad/TouchVGShape) to `../TouchVGShape` folder.
 
 * Build for **iOS** platform on Mac OS X.
 
