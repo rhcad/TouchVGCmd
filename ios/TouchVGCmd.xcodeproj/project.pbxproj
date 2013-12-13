@@ -19,7 +19,6 @@
 		AEA877CA1859B3B7009AFDC6 /* mgdrawarc.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877891859B2C4009AFDC6 /* mgdrawarc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA877CB1859B3B7009AFDC6 /* mgdrawrect.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8778A1859B2C4009AFDC6 /* mgdrawrect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA877CC1859B3BE009AFDC6 /* cmdbasic.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8778C1859B2C4009AFDC6 /* cmdbasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA877CD1859B3BE009AFDC6 /* mgbasicspreg.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8778D1859B2C4009AFDC6 /* mgbasicspreg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA877CE1859B3BE009AFDC6 /* mgdrawcircle.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8778E1859B2C4009AFDC6 /* mgdrawcircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA877CF1859B3BE009AFDC6 /* mgdrawdiamond.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8778F1859B2C4009AFDC6 /* mgdrawdiamond.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA877D01859B3BE009AFDC6 /* mgdrawellipse.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877901859B2C4009AFDC6 /* mgdrawellipse.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,7 +40,6 @@
 		AEA877E11859B3DB009AFDC6 /* mgdrawrect.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877A51859B2C4009AFDC6 /* mgdrawrect.cpp */; };
 		AEA877E21859B3DB009AFDC6 /* mgsplock.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877A61859B2C4009AFDC6 /* mgsplock.cpp */; };
 		AEA877E31859B3E3009AFDC6 /* cmdbasic.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877A81859B2C4009AFDC6 /* cmdbasic.cpp */; };
-		AEA877E41859B3E3009AFDC6 /* mgbasicspreg.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877A91859B2C4009AFDC6 /* mgbasicspreg.cpp */; };
 		AEA877E51859B3E3009AFDC6 /* mgcmderase.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877AA1859B2C4009AFDC6 /* mgcmderase.cpp */; };
 		AEA877E61859B3E3009AFDC6 /* mgcmderase.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877AB1859B2C4009AFDC6 /* mgcmderase.h */; };
 		AEA877E71859B3E3009AFDC6 /* mgdrawcircle.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA877AC1859B2C4009AFDC6 /* mgdrawcircle.cpp */; };
@@ -80,7 +78,6 @@
 		AEA877891859B2C4009AFDC6 /* mgdrawarc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawarc.h; sourceTree = "<group>"; };
 		AEA8778A1859B2C4009AFDC6 /* mgdrawrect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawrect.h; sourceTree = "<group>"; };
 		AEA8778C1859B2C4009AFDC6 /* cmdbasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmdbasic.h; sourceTree = "<group>"; };
-		AEA8778D1859B2C4009AFDC6 /* mgbasicspreg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgbasicspreg.h; sourceTree = "<group>"; };
 		AEA8778E1859B2C4009AFDC6 /* mgdrawcircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawcircle.h; sourceTree = "<group>"; };
 		AEA8778F1859B2C4009AFDC6 /* mgdrawdiamond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawdiamond.h; sourceTree = "<group>"; };
 		AEA877901859B2C4009AFDC6 /* mgdrawellipse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgdrawellipse.h; sourceTree = "<group>"; };
@@ -102,7 +99,6 @@
 		AEA877A51859B2C4009AFDC6 /* mgdrawrect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawrect.cpp; sourceTree = "<group>"; };
 		AEA877A61859B2C4009AFDC6 /* mgsplock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgsplock.cpp; sourceTree = "<group>"; };
 		AEA877A81859B2C4009AFDC6 /* cmdbasic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cmdbasic.cpp; sourceTree = "<group>"; };
-		AEA877A91859B2C4009AFDC6 /* mgbasicspreg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgbasicspreg.cpp; sourceTree = "<group>"; };
 		AEA877AA1859B2C4009AFDC6 /* mgcmderase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgcmderase.cpp; sourceTree = "<group>"; };
 		AEA877AB1859B2C4009AFDC6 /* mgcmderase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mgcmderase.h; sourceTree = "<group>"; };
 		AEA877AC1859B2C4009AFDC6 /* mgdrawcircle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mgdrawcircle.cpp; sourceTree = "<group>"; };
@@ -192,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				AEA8778C1859B2C4009AFDC6 /* cmdbasic.h */,
-				AEA8778D1859B2C4009AFDC6 /* mgbasicspreg.h */,
 				AEA8778E1859B2C4009AFDC6 /* mgdrawcircle.h */,
 				AEA8778F1859B2C4009AFDC6 /* mgdrawdiamond.h */,
 				AEA877901859B2C4009AFDC6 /* mgdrawellipse.h */,
@@ -253,7 +248,6 @@
 			isa = PBXGroup;
 			children = (
 				AEA877A81859B2C4009AFDC6 /* cmdbasic.cpp */,
-				AEA877A91859B2C4009AFDC6 /* mgbasicspreg.cpp */,
 				AEA877AA1859B2C4009AFDC6 /* mgcmderase.cpp */,
 				AEA877AB1859B2C4009AFDC6 /* mgcmderase.h */,
 				AEA877AC1859B2C4009AFDC6 /* mgdrawcircle.cpp */,
@@ -347,7 +341,6 @@
 				AEA877CA1859B3B7009AFDC6 /* mgdrawarc.h in Headers */,
 				AEA877CB1859B3B7009AFDC6 /* mgdrawrect.h in Headers */,
 				AEA877CC1859B3BE009AFDC6 /* cmdbasic.h in Headers */,
-				AEA877CD1859B3BE009AFDC6 /* mgbasicspreg.h in Headers */,
 				AEA877CE1859B3BE009AFDC6 /* mgdrawcircle.h in Headers */,
 				AEA877CF1859B3BE009AFDC6 /* mgdrawdiamond.h in Headers */,
 				AEA877D01859B3BE009AFDC6 /* mgdrawellipse.h in Headers */,
@@ -369,7 +362,6 @@
 				AEA877E11859B3DB009AFDC6 /* mgdrawrect.cpp in Headers */,
 				AEA877E21859B3DB009AFDC6 /* mgsplock.cpp in Headers */,
 				AEA877E31859B3E3009AFDC6 /* cmdbasic.cpp in Headers */,
-				AEA877E41859B3E3009AFDC6 /* mgbasicspreg.cpp in Headers */,
 				AEA877E51859B3E3009AFDC6 /* mgcmderase.cpp in Headers */,
 				AEA877E61859B3E3009AFDC6 /* mgcmderase.h in Headers */,
 				AEA877E71859B3E3009AFDC6 /* mgdrawcircle.cpp in Headers */,

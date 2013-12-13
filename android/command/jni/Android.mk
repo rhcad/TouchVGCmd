@@ -28,7 +28,6 @@ base_files := $(core_src)/cmdbase/mgcmddraw.cpp \
               $(core_src)/cmdbase/mgsplock.cpp
 
 basic_files := $(core_src)/cmdbasic/cmdbasic.cpp \
-              $(core_src)/cmdbasic/mgbasicspreg.cpp \
               $(core_src)/cmdbasic/mgcmderase.cpp \
               $(core_src)/cmdbasic/mgdrawcircle.cpp \
               $(core_src)/cmdbasic/mgdrawdiamond.cpp \
