@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE299CEF185C20040089E3B7 /* mgcmddraw.cpp in Headers */ = {isa = PBXBuildFile; fileRef = AEA878211859C1BE009AFDC6 /* mgcmddraw.cpp */; };
+		AE66F63D185AD8D200A22FB2 /* mgdrawarc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877A41859B2C4009AFDC6 /* mgdrawarc.cpp */; };
+		AE66F63E185AD8D200A22FB2 /* mgdrawrect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877A51859B2C4009AFDC6 /* mgdrawrect.cpp */; };
+		AE66F63F185AD8D200A22FB2 /* mgsplock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877A61859B2C4009AFDC6 /* mgsplock.cpp */; };
+		AE66F640185AD8DD00A22FB2 /* cmdbasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877A81859B2C4009AFDC6 /* cmdbasic.cpp */; };
+		AE66F641185AD8DD00A22FB2 /* mgcmderase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877AA1859B2C4009AFDC6 /* mgcmderase.cpp */; };
+		AE66F643185AD8DD00A22FB2 /* mgdrawcircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877AC1859B2C4009AFDC6 /* mgdrawcircle.cpp */; };
+		AE66F644185AD8DD00A22FB2 /* mgdrawdiamond.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877AD1859B2C4009AFDC6 /* mgdrawdiamond.cpp */; };
+		AE66F645185AD8DD00A22FB2 /* mgdrawellipse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877AE1859B2C4009AFDC6 /* mgdrawellipse.cpp */; };
+		AE66F646185AD8DD00A22FB2 /* mgdrawfreelines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877AF1859B2C4009AFDC6 /* mgdrawfreelines.cpp */; };
+		AE66F647185AD8DD00A22FB2 /* mgdrawgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877B01859B2C4009AFDC6 /* mgdrawgrid.cpp */; };
+		AE66F648185AD8DD00A22FB2 /* mgdrawline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877B11859B2C4009AFDC6 /* mgdrawline.cpp */; };
+		AE66F649185AD8DD00A22FB2 /* mgdrawlines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877B21859B2C4009AFDC6 /* mgdrawlines.cpp */; };
+		AE66F64A185AD8DD00A22FB2 /* mgdrawparallel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877B31859B2C4009AFDC6 /* mgdrawparallel.cpp */; };
+		AE66F64B185AD8DD00A22FB2 /* mgdrawpolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877B41859B2C4009AFDC6 /* mgdrawpolygon.cpp */; };
+		AE66F64C185AD8DD00A22FB2 /* mgdrawsplines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877B51859B2C4009AFDC6 /* mgdrawsplines.cpp */; };
+		AE66F64D185AD8DD00A22FB2 /* mgdrawsquare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877B61859B2C4009AFDC6 /* mgdrawsquare.cpp */; };
+		AE66F64E185AD8DD00A22FB2 /* mgdrawtriang.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877B71859B2C4009AFDC6 /* mgdrawtriang.cpp */; };
+		AE66F64F185AD8EB00A22FB2 /* cmdsubject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877B91859B2C4009AFDC6 /* cmdsubject.cpp */; };
+		AE66F650185AD8EB00A22FB2 /* mgactions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877BA1859B2C4009AFDC6 /* mgactions.cpp */; };
+		AE66F651185AD8EB00A22FB2 /* mgcmdmgr2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877BB1859B2C4009AFDC6 /* mgcmdmgr2.cpp */; };
+		AE66F652185AD8EB00A22FB2 /* mgcmdmgr_.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877BC1859B2C4009AFDC6 /* mgcmdmgr_.cpp */; };
+		AE66F653185AD8EB00A22FB2 /* mgcmdselect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877BE1859B2C4009AFDC6 /* mgcmdselect.cpp */; };
+		AE66F654185AD8EB00A22FB2 /* mgsnapimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA877C01859B2C4009AFDC6 /* mgsnapimpl.cpp */; };
 		AEA877C11859B3AF009AFDC6 /* mgaction.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA8777F1859B2C4009AFDC6 /* mgaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA877C21859B3AF009AFDC6 /* mgcmd.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877801859B2C4009AFDC6 /* mgcmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA877C31859B3AF009AFDC6 /* mgcoreview.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA877811859B2C4009AFDC6 /* mgcoreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -358,6 +382,7 @@
 				AEA877DC1859B3C8009AFDC6 /* mgcmdmgrfactory.h in Headers */,
 				AEA877DD1859B3CF009AFDC6 /* cmdobserver.h in Headers */,
 				AEA877DE1859B3CF009AFDC6 /* cmdsubject.h in Headers */,
+				AE299CEF185C20040089E3B7 /* mgcmddraw.cpp in Headers */,
 				AEA877E01859B3DB009AFDC6 /* mgdrawarc.cpp in Headers */,
 				AEA877E11859B3DB009AFDC6 /* mgdrawrect.cpp in Headers */,
 				AEA877E21859B3DB009AFDC6 /* mgsplock.cpp in Headers */,
@@ -469,6 +494,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE66F64F185AD8EB00A22FB2 /* cmdsubject.cpp in Sources */,
+				AE66F650185AD8EB00A22FB2 /* mgactions.cpp in Sources */,
+				AE66F651185AD8EB00A22FB2 /* mgcmdmgr2.cpp in Sources */,
+				AE66F652185AD8EB00A22FB2 /* mgcmdmgr_.cpp in Sources */,
+				AE66F653185AD8EB00A22FB2 /* mgcmdselect.cpp in Sources */,
+				AE66F654185AD8EB00A22FB2 /* mgsnapimpl.cpp in Sources */,
+				AE66F640185AD8DD00A22FB2 /* cmdbasic.cpp in Sources */,
+				AE66F641185AD8DD00A22FB2 /* mgcmderase.cpp in Sources */,
+				AE66F643185AD8DD00A22FB2 /* mgdrawcircle.cpp in Sources */,
+				AE66F644185AD8DD00A22FB2 /* mgdrawdiamond.cpp in Sources */,
+				AE66F645185AD8DD00A22FB2 /* mgdrawellipse.cpp in Sources */,
+				AE66F646185AD8DD00A22FB2 /* mgdrawfreelines.cpp in Sources */,
+				AE66F647185AD8DD00A22FB2 /* mgdrawgrid.cpp in Sources */,
+				AE66F648185AD8DD00A22FB2 /* mgdrawline.cpp in Sources */,
+				AE66F649185AD8DD00A22FB2 /* mgdrawlines.cpp in Sources */,
+				AE66F64A185AD8DD00A22FB2 /* mgdrawparallel.cpp in Sources */,
+				AE66F64B185AD8DD00A22FB2 /* mgdrawpolygon.cpp in Sources */,
+				AE66F64C185AD8DD00A22FB2 /* mgdrawsplines.cpp in Sources */,
+				AE66F64D185AD8DD00A22FB2 /* mgdrawsquare.cpp in Sources */,
+				AE66F64E185AD8DD00A22FB2 /* mgdrawtriang.cpp in Sources */,
+				AE66F63D185AD8D200A22FB2 /* mgdrawarc.cpp in Sources */,
+				AE66F63E185AD8D200A22FB2 /* mgdrawrect.cpp in Sources */,
+				AE66F63F185AD8D200A22FB2 /* mgsplock.cpp in Sources */,
 				AEA878221859C1BE009AFDC6 /* mgcmddraw.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
