@@ -48,7 +48,7 @@ bool MgCmdErase::draw(const MgMotion* sender, GiGraphics* gs)
     GiContext ctx(-4, GiColor(64, 64, 64, 128));
     
     for (std::vector<int>::const_iterator it = m_delIds.begin(); it != m_delIds.end(); ++it) {
-        MgShape* shape = sender->view->shapes()->findShape(*it);
+        const MgShape* shape = sender->view->shapes()->findShape(*it);
         if (shape) {
             shape->draw(1, *gs, &ctx, -1);
         }
@@ -71,7 +71,7 @@ int MgCmdErase::gatherShapes(const MgMotion* sender, MgShapes* shapes)
     return m_boxsel ? 1 : 0;
 }
 
-MgShape* MgCmdErase::hitTest(const MgMotion* sender)
+const MgShape* MgCmdErase::hitTest(const MgMotion* sender)
 {
     Box2d limits(sender->startPtM, sender->displayMmToModel(6.f), 0);
     MgHitResult res;
@@ -80,7 +80,7 @@ MgShape* MgCmdErase::hitTest(const MgMotion* sender)
 
 bool MgCmdErase::click(const MgMotion* sender)
 {
-    MgShape* shape = hitTest(sender);
+    MgShape* shape = const_cast<MgShape*>(hitTest(sender));
     if (shape && sender->view->shapeWillDeleted(shape)) {
         MgShapesLock locker(MgShapesLock::Remove, sender->view);
         if (locker.locked() && sender->view->removeShape(shape)) {
@@ -118,9 +118,9 @@ bool MgCmdErase::touchMoved(const MgMotion* sender)
     MgShapeIterator it(m_boxsel ? sender->view->shapes() : NULL);
     
     m_delIds.clear();
-    while (MgShape* shape = it.getNext()) {
-        if (isIntersectMode(sender) ? shape->shape()->hitTestBox(snap)
-            : snap.contains(shape->shape()->getExtent())) {
+    while (const MgShape* shape = it.getNext()) {
+        if (isIntersectMode(sender) ? shape->shapec()->hitTestBox(snap)
+            : snap.contains(shape->shapec()->getExtent())) {
             m_delIds.push_back(shape->getID());
         }
     }
@@ -141,7 +141,7 @@ bool MgCmdErase::touchEnded(const MgMotion* sender)
         
         it = locker.locked() ? m_delIds.begin() : m_delIds.end();
         for (; it != m_delIds.end(); ++it) {
-            MgShape* shape = s->findShape(*it);
+            MgShape* shape = const_cast<MgShape*>(s->findShape(*it));
             if (shape && sender->view->removeShape(shape)) {
                 shape->release();
                 count++;

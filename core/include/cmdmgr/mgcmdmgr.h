@@ -49,7 +49,7 @@ struct MgCmdManager {
         \param forChange 是否用于修改，用于修改时将复制临时图形，动态修改完后要调用 dynamicChangeEnded()
         \return 获取多少个图形，或实际个数
     */
-    virtual int getSelection(MgView* view, int count, MgShape** shapes, bool forChange = false) = 0;
+    virtual int getSelection(MgView* view, int count, const MgShape** shapes, bool forChange = false) = 0;
 #endif
     
     //! 结束动态修改，提交或放弃所改的临时图形

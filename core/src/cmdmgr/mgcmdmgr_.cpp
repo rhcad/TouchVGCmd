@@ -162,7 +162,7 @@ bool MgCmdManagerImpl::cancel(const MgMotion* sender)
     return false;
 }
 
-int MgCmdManagerImpl::getSelection(MgView* view, int count, MgShape** shapes, bool forChange)
+int MgCmdManagerImpl::getSelection(MgView* view, int count, const MgShape** shapes, bool forChange)
 {
     if (_cmdname == MgCmdSelect::Name() && view) {
         MgCmdSelect* sel = (MgCmdSelect*)getCommand();

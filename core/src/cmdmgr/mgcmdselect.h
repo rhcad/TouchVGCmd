@@ -21,7 +21,7 @@ public:
     bool dynamicChangeEnded(MgView* view, bool apply);
     
 public:
-    virtual int getSelection(MgView* view, int count, MgShape** shapes, bool forChange = false);
+    virtual int getSelection(MgView* view, int count, const MgShape** shapes, bool forChange = false);
     virtual MgSelState getSelectState(MgView* view);
     virtual int getSelectType(MgView* view);
     virtual bool selectAll(const MgMotion* sender);
@@ -59,28 +59,28 @@ private:
     virtual bool touchMoved(const MgMotion* sender);
     virtual bool touchEnded(const MgMotion* sender);
     virtual bool twoFingersMove(const MgMotion* sender);
-    virtual MgShape* getShape(const MgMotion* sender);
+    virtual const MgShape* getShape(const MgMotion* sender);
 
 private:
     int getStep() { return 0; }
-    MgShape* hitTestAll(const MgMotion* sender, MgHitResult& res);
-    MgShape* getSelectedShape(const MgMotion* sender);
-    bool canSelect(MgShape* shape, const MgMotion* sender);
-    int hitTestHandles(MgShape* shape, const Point2d& pointM, 
+    const MgShape* hitTestAll(const MgMotion* sender, MgHitResult& res);
+    const MgShape* getSelectedShape(const MgMotion* sender);
+    bool canSelect(const MgShape* shape, const MgMotion* sender);
+    int hitTestHandles(const MgShape* shape, const Point2d& pointM,
                          const MgMotion* sender, float tolmm = 10.f);
     bool isIntersectMode(const MgMotion* sender);
     Point2d snapPoint(const MgMotion* sender, const MgShape* shape);
     
     typedef std::vector<int>::iterator sel_iterator;
-    sel_iterator getSelectedPostion(MgShape* shape);
-    bool isSelected(MgShape* shape);
-    MgShape* getShape(int id, const MgMotion* sender) const;
+    sel_iterator getSelectedPostion(const MgShape* shape);
+    bool isSelected(const MgShape* shape);
+    const MgShape* getShape(int id, const MgMotion* sender) const;
     bool isDragRectCorner(const MgMotion* sender, Matrix2d& mat);
     bool isCloneDrag(const MgMotion* sender);
     void cloneShapes(MgView* view);
     bool applyCloneShapes(MgView* view, bool apply, bool addNewShapes = false);
-    bool canTransform(MgShape* shape, const MgMotion* sender);
-    bool canRotate(MgShape* shape, const MgMotion* sender);
+    bool canTransform(const MgShape* shape, const MgMotion* sender);
+    bool canRotate(const MgShape* shape, const MgMotion* sender);
     
 private:
     std::vector<int>        m_selIds;           // 选中的图形的ID

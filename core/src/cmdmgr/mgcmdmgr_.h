@@ -40,7 +40,7 @@ private:
     virtual void setNewShapeID(int sid) { _newShapeID = sid; }
     virtual float displayMmToModel(float mm, GiGraphics* gs);
     virtual float displayMmToModel(float mm, const MgMotion* sender);
-    virtual int getSelection(MgView* view, int count, MgShape** shapes, bool forChange = false);
+    virtual int getSelection(MgView* view, int count, const MgShape** shapes, bool forChange = false);
     virtual bool dynamicChangeEnded(MgView* view, bool apply);
     virtual MgSelection* getSelection();
     virtual MgActionDispatcher* getActionDispatcher();

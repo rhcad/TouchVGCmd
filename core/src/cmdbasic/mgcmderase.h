@@ -34,7 +34,7 @@ private:
 
 private:
     int getStep() { return 0; }
-    MgShape* hitTest(const MgMotion* sender);
+    const MgShape* hitTest(const MgMotion* sender);
     bool isIntersectMode(const MgMotion* sender);
     
     std::vector<int>     m_delIds;

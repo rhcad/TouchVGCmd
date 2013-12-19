@@ -46,7 +46,7 @@ public:
     virtual bool isFloatingCommand() { return false; }      //!< 是否可嵌套在其他命令中
     virtual bool doContextAction(const MgMotion* sender, int action) {
         return !sender && !action; }                        //!< 执行上下文动作
-    virtual MgShape* getShape(const MgMotion* sender) { return (MgShape*)0; }   //!< 当前临时图形
+    virtual const MgShape* getShape(const MgMotion* sender) { return (MgShape*)0; }   //!< 当前临时图形
     
 private:
     char _name[31];

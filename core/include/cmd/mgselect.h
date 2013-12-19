@@ -29,7 +29,7 @@ typedef enum {
 struct MgSelection {
 #ifndef SWIG
     //! 得到当前选择的图形
-    virtual int getSelection(MgView* view, int count, MgShape** shapes, bool forChange = false) = 0;
+    virtual int getSelection(MgView* view, int count, const MgShape** shapes, bool forChange = false) = 0;
 #endif
 #ifdef SWIG_MGVECTOR_H
     //! 得到当前选择的图形
@@ -39,7 +39,7 @@ struct MgSelection {
     }
 #endif
     //! 得到选中的图形的个数
-    int getSelectionCount(MgView* view) { return getSelection(view, 0, (MgShape**)0); }
+    int getSelectionCount(MgView* view) { return getSelection(view, 0, (const MgShape**)0); }
     
     //! 返回选择状态
     virtual MgSelState getSelectState(MgView* view) = 0;

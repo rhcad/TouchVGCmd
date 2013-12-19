@@ -78,8 +78,8 @@ void MgCmdManagerImpl::eraseWnd(const MgMotion* sender)
     MgShapes* s = sender->view->shapes();
     MgShapeIterator it(s);
     
-    while (MgShape* shape = it.getNext()) {
-        if (shape->shape()->hitTestBox(snap)) {
+    while (const MgShape* shape = it.getNext()) {
+        if (shape->shapec()->hitTestBox(snap)) {
             delIds.push_back(shape->getID());
         }
     }
@@ -91,7 +91,7 @@ void MgCmdManagerImpl::eraseWnd(const MgMotion* sender)
         int n = 0;
         
         for (; i != delIds.end(); ++i) {
-            MgShape* shape = s->findShape(*i);
+            MgShape* shape = const_cast<MgShape*>(s->findShape(*i));
             if (shape && sender->view->removeShape(shape)) {
                 shape->release();
                 n++;
